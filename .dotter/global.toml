@@ -1,0 +1,11 @@
+[helpers]
+
+[helix.files]
+"helix/config.toml" = "~/.config/helix/config.toml"
+[default]
+depends = ["helix"]
+
+[default.files]
+helix = ""
+
+[default.variables]

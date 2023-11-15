@@ -1,0 +1,4 @@
+[symlinks]
+"helix/config.toml" = "/home/cboyce/.config/helix/config.toml"
+
+[templates]

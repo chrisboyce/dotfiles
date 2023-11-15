@@ -1,0 +1,15 @@
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+cursorline = true
+cursorcolumn = true
+rulers = [80]
+bufferline = "multiple"
+
+[editor.lsp]
+display-messages = true
+
+[editor.indent-guides]
+render = true
+
