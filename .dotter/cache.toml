@@ -1,4 +1,5 @@
 [symlinks]
 "helix/config.toml" = "/home/cboyce/.config/helix/config.toml"
+"zellij/config.kdl" = "/home/cboyce/.config/zellij/config.kdl"
 
 [templates]

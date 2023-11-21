@@ -1,9 +1,15 @@
 [helpers]
 
+[bash.files]
+"bash/.bashrc" ="~/.bashrc"
 [helix.files]
 "helix/config.toml" = "~/.config/helix/config.toml"
+
+[zellij.files]
+"zellij/config.kdl" = "~/.config/zellij/config.kdl"
+
 [default]
-depends = ["helix"]
+depends = ["helix","zellij"]
 
 [default.files]
 helix = ""
