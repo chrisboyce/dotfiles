@@ -1,5 +1,6 @@
 [symlinks]
 "helix/config.toml" = "/home/cboyce/.config/helix/config.toml"
+"nushell/config.nu" = "/home/cboyce/.config/nushell/config.nu"
 "zellij/config.kdl" = "/home/cboyce/.config/zellij/config.kdl"
 
 [templates]

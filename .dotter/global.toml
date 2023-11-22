@@ -1,7 +1,14 @@
 [helpers]
 
+[nushell.files]
+"nushell/config.nu" = "~/.config/nushell/config.nu"
+
 [bash.files]
 "bash/.bashrc" ="~/.bashrc"
+
+[starship.files]
+"starship/config.toml" ="~/.config/starship.toml"
+
 [helix.files]
 "helix/config.toml" = "~/.config/helix/config.toml"
 
@@ -9,7 +16,7 @@
 "zellij/config.kdl" = "~/.config/zellij/config.kdl"
 
 [default]
-depends = ["helix","zellij"]
+depends = ["helix","zellij","nushell"]
 
 [default.files]
 helix = ""
