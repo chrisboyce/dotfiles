@@ -1,5 +1,8 @@
 [helpers]
 
+[fish.files]
+"fish/config.fish" = "~/.config/fish/config.fish"
+
 [nushell.files]
 "nushell/config.nu" = "~/.config/nushell/config.nu"
 
@@ -7,7 +10,8 @@
 "bash/.bashrc" ="~/.bashrc"
 
 [starship.files]
-"starship/config.toml" ="~/.config/starship.toml"
+"starship/starship.toml" ="~/.config/starship.toml"
+"starship/init.nu" = "~/.cache/starship/init.nu"
 
 [helix.files]
 "helix/config.toml" = "~/.config/helix/config.toml"
@@ -16,7 +20,7 @@
 "zellij/config.kdl" = "~/.config/zellij/config.kdl"
 
 [default]
-depends = ["helix","zellij","nushell"]
+depends = ["bash","helix","zellij","nushell","starship","fish"]
 
 [default.files]
 helix = ""
