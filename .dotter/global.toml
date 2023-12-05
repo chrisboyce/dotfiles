@@ -1,5 +1,8 @@
 [helpers]
 
+[xplr.files]
+"xplr/init.lua" = "~/.config/xplr/init.lua"
+
 [fish.files]
 "fish/config.fish" = "~/.config/fish/config.fish"
 
