@@ -23,7 +23,7 @@
 "zellij/config.kdl" = "~/.config/zellij/config.kdl"
 
 [default]
-depends = ["bash","helix","zellij","nushell","starship","fish"]
+depends = ["bash","helix","zellij","nushell","starship","fish","xplr"]
 
 [default.files]
 helix = ""
