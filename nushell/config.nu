@@ -758,3 +758,5 @@ $env.config = {
     ]
 }
 use ~/.cache/starship/init.nu
+
+source "/home/cboyce/.dotfiles/nushell/rtx.nu"
