@@ -128,6 +128,4 @@ fi
 
 
 
-eval "$(zoxide init bash)"
-eval "$(starship init bash)"
 eval "$(rtx activate bash)"

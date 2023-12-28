@@ -1,5 +1,8 @@
 [helpers]
 
+[xplr.files]
+"xplr/init.lua" = "~/.config/xplr/init.lua"
+
 [fish.files]
 "fish/config.fish" = "~/.config/fish/config.fish"
 
@@ -20,7 +23,7 @@
 "zellij/config.kdl" = "~/.config/zellij/config.kdl"
 
 [default]
-depends = ["bash","helix","zellij","nushell","starship","fish"]
+depends = ["bash","helix","zellij","nushell","starship","fish","xplr"]
 
 [default.files]
 helix = ""
